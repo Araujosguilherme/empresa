@@ -36,6 +36,7 @@ public class Departamento {
 
 
 // To do
+        // Acabei de acrescentar um codigo aqui
     }
 
     public Departamento(Long id, String nome, Integer numero, String descricao) {
@@ -45,7 +46,7 @@ public class Departamento {
         this.descricao = descricao;
     }
 
-    }
+}
 
 
 
