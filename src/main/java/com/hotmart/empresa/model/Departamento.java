@@ -34,6 +34,8 @@ public class Departamento {
 
     public Departamento() {
 
+
+// To do
     }
 
     public Departamento(Long id, String nome, Integer numero, String descricao) {
