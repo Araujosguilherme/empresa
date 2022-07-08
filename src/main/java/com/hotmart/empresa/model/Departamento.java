@@ -35,16 +35,10 @@ public class Departamento {
     public Departamento() {
 
 
-// To do
-        // Acabei de acrescentar um codigo aqui
     }
 
-    public Departamento(Long id, String nome, Integer numero, String descricao) {
-        this.id = id;
-        this.nome = nome;
-        this.numero = numero;
-        this.descricao = descricao;
-    }
+
+
 
 }
 

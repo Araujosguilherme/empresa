@@ -29,10 +29,6 @@ public class Projeto {
     @Column
     private BigDecimal valor;
 
-    @Column
-    @Enumerated(EnumType.STRING)
-    private StatusBudget statusBudget;
-
     @ManyToOne
     private Departamento departamento;
 
@@ -44,15 +40,9 @@ public class Projeto {
 
     }
 
-    public Projeto(Long id, String nome, LocalDate dataContratacao, BigDecimal valor, StatusBudget statusBudget, Departamento departamento,
-                   List<Funcionario> funcionarios) {
-        this.id = this.id;
-        this.nome = nome;
-        this.dataContratacao = dataContratacao;
-        this.valor = valor;
-        this.funcionarios = funcionarios;
 
-    }
+
+
 
 
 
