@@ -8,6 +8,7 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -39,7 +40,14 @@ public class Projeto {
     public Projeto() {
 
     }
+    public void addFuncionario(Funcionario guilherme) {
+       if (this.funcionarios == null) {
+           this.funcionarios = new ArrayList<>();
+       }
+        this.funcionarios.add(guilherme);
 
+
+    }
 
 
 
